@@ -1,0 +1,41 @@
+body {
+    background-color: #f5f5f5;
+}
+.custom-navbar {
+    background-color: white;
+}
+.text-custom-color {
+    color: #333;
+    font-weight: 600;
+}
+.nav-item:hover {
+    cursor: default;
+}
+.nav-item:hover .dropdown-menu{
+    display:block;
+}
+.dropdown-item:hover{
+    text-decoration: underline;
+}
+.footer {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #fff;
+    text-align: center;
+}
+.grid-container {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+}
+.scanner{
+    margin  : 30px;
+}
+.scanner-style{
+    width:400px;
+    border-radius: 20px;
+    padding:80px;
+}
+.main {
+    padding: 30px;
+}
